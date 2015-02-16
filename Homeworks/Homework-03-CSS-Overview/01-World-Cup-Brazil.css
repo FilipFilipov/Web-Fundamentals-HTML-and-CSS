@@ -1,0 +1,168 @@
+html{
+    font-family: Calibri;
+    font-size: 25px;
+}
+table {
+    padding: 20px;
+    table-layout: fixed;
+    width: 1200px;
+}
+thead {
+    font-family: "Segoe UI"
+}
+tr {
+    height: 60px;
+}
+table, td {
+    border-spacing: 0;
+    margin: 20px;
+}
+table thead{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+table tbody{
+    font-size: 0.8rem;
+}
+select{
+    font-size: 0.8rem;
+    width: 42px;
+    height: 42px;
+    border: solid 1px #adadad;
+    background: #dedede;
+    color: red;
+}
+button{
+    font-size: 0.5rem;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: red;
+    color: white;
+}
+/*borders*/
+td, th{
+    border: solid 1px black;
+    padding: 0 10px;
+}
+td:last-child, th:last-child{
+    border-right: solid 2px black;
+}
+td:first-child, th:first-child{
+    border-left: solid 2px black;
+}
+thead tr th{
+    border-top: solid 2px black;
+}
+tbody tr:last-of-type td{
+    border-bottom: solid 2px black;
+}
+#upper-left{
+    border-top-left-radius: 20px;
+}
+#upper-right{
+    border-top-right-radius: 20px;
+}
+#lower-left{
+    border-bottom-left-radius: 20px;
+}
+#lower-right{
+    border-bottom-right-radius: 20px;
+}
+/*colors*/
+table{
+    background: #009744;
+}
+th{
+    background: #f8ca14;
+}
+tr:nth-of-type(odd) td{
+    background: white;
+}
+tr:nth-of-type(even) td{
+    background: #cbcbcb;
+}
+td select.active {
+    background: white;
+    color: #008600;
+}
+td button.active {
+    background: #008600;
+}
+/*column size */
+.longest {
+    width: 200px;
+}
+.long {
+    width: 170px;
+}
+.mid {
+    width: 130px;
+}
+.short {
+    width: 115px;
+}
+.shortest {
+    column-width: 60px;
+}
+/*align text*/
+tr td:nth-of-type(1),
+tr td:nth-of-type(5){
+    text-align: right;
+}
+tr td:nth-of-type(even){
+    text-align: center;
+}
+thead tr td:last-of-type {
+    text-align: center;
+}
+/*country flags*/
+/*left flags*/
+.br, .es, .it, .ar, .de{
+    padding-right: 40px;
+    position: relative;
+}
+.br:after,.es:after, .it:after, .ar:after, .de:after {
+    position: absolute;
+    right: 6px;
+}
+.br:after{
+    content: url("images/br.png");
+}
+.es:after{
+    content: url("images/es.png");
+}
+.it:after{
+    content: url("images/it.png");
+}
+.ar:after {
+    content: url("images/ar.png");
+}
+.de:after{
+    content: url("images/de.png");
+}
+/*right flags*/
+.mx, .nl, .un, .ba, .pt{
+    padding-left: 40px;
+    position: relative;
+}
+.mx:before, .nl:before, .un:before, .ba:before, .pt:before{
+    position: absolute;
+    left: 6px;
+}
+.mx:before{
+    content: url("images/mx.png");
+}
+.nl:before{
+    content: url("images/nl.png");
+}
+.un:before{
+    content: url("images/un.png");
+}
+.ba:before{
+    content: url("images/ba.png");
+}
+.pt:before{
+    content: url("images/pt.png");
+}

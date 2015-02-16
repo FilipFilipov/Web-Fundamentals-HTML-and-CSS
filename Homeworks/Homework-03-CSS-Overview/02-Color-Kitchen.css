@@ -1,0 +1,131 @@
+html, body, ul, li {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: "Helvetica";
+    font-size: 10px;
+}
+body {
+    background-image: url("images/colorful_dots_on_black.jpg");
+    font-size: 1.6rem;
+}
+/*headers*/
+body > header {
+    font-family: "Segoe UI";
+    font-size: 6rem;
+    background: linear-gradient(to right, #FF0000 33%, #008000 33%, #008000 67%, #0000FF 67%);
+    color: #FFFF00;
+    text-align: center;
+    margin-bottom: 40px;
+}
+aside, article {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+}
+section {
+    width: 70%;
+    float: left;
+    margin: 0 40px;
+}
+/*aside styles*/
+aside {
+    float: left;
+    width: 18%;
+    margin-left: 10px;
+}
+aside header {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+ul {
+    font-size: 1.8rem;
+    list-style-type: none;
+    margin-top: 5px;
+}
+li {
+    position: relative;
+    padding: 8px 0 8px 35px;
+    border-radius: 10px;
+}
+li:before {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    content: url("images/mark.png");
+}
+li a {
+    color: black;
+    text-decoration: none;
+}
+li a:visited {
+    color: grey;
+}
+li:nth-child(1):hover {
+    background: red;
+}
+li:nth-child(2):hover {
+    background: orange;
+}
+li:nth-child(3):hover {
+    background: yellow;
+}
+li:nth-child(4):hover {
+    background: green;
+}
+li:nth-child(5):hover {
+    background: blue;
+}
+li:nth-child(6):hover {
+    background: purple;
+}
+/*article styles*/
+article{
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+article>header{
+    color: white;
+    border-radius: 10px;
+    font-size: 3rem;
+    padding: 10px;
+}
+article #webColors{
+    background: red;
+}
+article #webSafeColors{
+    background: orange;
+    color: black;
+}
+article #RGB{
+    background: yellow;
+    color: black;
+}
+article #RGBA{
+    background: green;
+}
+article #HSLHSV{
+    background: blue;
+}
+article #lorem{
+    background: purple;
+}
+div:first-letter {
+    font-size: 6rem;
+}
+div:first-line {
+    font-style: italic;
+}
+article span{
+    color: #00008b;
+    font-style: italic;
+}
+article footer{
+    margin-top: 5px;
+}
+article footer a{
+    font-style: italic;
+    color: grey;
+}

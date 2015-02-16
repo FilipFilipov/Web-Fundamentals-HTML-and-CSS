@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>"Life in SoftUni" Keyboard</title>
+    <style>
+        table {
+            text-align: center;
+            height: 100%;
+        }
+        tr { height: 100px }
+        td, th { height: 20% }
+        button {
+            background: linear-gradient(0deg, #d7d7d7 0%, #d7d7d7 49%, #f1f1f1 50%, #f1f1f1);
+            border-radius: 10px;
+            border: 1px solid gray;
+            color: #0000ee;
+            width: 100%;
+            height: 100%;
+            font-size: medium;
+        }
+        button::-moz-focus-inner {
+            border: 0;
+        }
+
+    </style>
+</head>
+<body>
+<table border="1">
+    <colgroup>
+        <col width="100"/>
+        <col width="100"/>
+        <col width="100"/>
+        <col width="100"/>
+    </colgroup>
+    <thead>
+    <tr>
+        <th colspan="4">
+            <button type="button" onclick="window.open('http://softuni.bg')" style="font-size: 2em">
+                Software University
+            </button>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td colspan="2">
+            <button type="button" onclick="window.open('http://www.google.bg')">
+                Google
+            </button>
+        </td>
+        <td colspan="2">
+            <button type="button" onclick="window.open('http://github.com')">
+                GitHub
+            </button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" onclick="window.open('http://facebook.com')">
+                FB
+            </button>
+        </td>
+        <td>
+            <button type="button" onclick="window.open('http://gmail.com')">
+                GMail
+            </button>
+        </td>
+        <td>
+            <button type="button" onclick="window.open('http://youtube.com')">
+                YouTube
+            </button>
+        </td>
+        <td>
+            <button type="button" onclick="window.open('http://2048game.com/')">
+                2048
+            </button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" onclick="window.open('http://en.wikipedia.org/wiki/Food')">
+                Food
+            </button>
+        </td>
+        <td colspan="2">
+            <button type="button" onclick="window.open('http://en.wikipedia.org/wiki/Game')">
+                Game
+            </button>
+        </td>
+        <td>
+            <table style="width: 100%" cellspacing="0">
+                <tr style="height: 50px">
+                    <td>
+                        <button type="button" onclick="window.open()"
+                                style="font-size: 11px">
+                            <b>Social Life</b>
+                        </button>
+                    </td>
+                </tr>
+                <tr style="height: 50px">
+                    <td>
+                        <button type="button" onclick="window.open('http://en.wikipedia.org/wiki/Sleep')"
+                                style="font-size: 11px">
+                            <b>Sleep</b>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <button type="button" onclick="window.open('http://en.wikipedia.org/wiki/Beer')"
+                    style="text-align: right; font-size: 1.3em">
+            <b>Beer >>> </b>
+            </button>
+        </td>
+        <td>
+            <button type="button" onclick="window.open('http://en.wikipedia.org/wiki/Flush_toilet')">
+            WC
+            </button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
