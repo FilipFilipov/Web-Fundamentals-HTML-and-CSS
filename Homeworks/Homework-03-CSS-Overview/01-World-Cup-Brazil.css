@@ -5,7 +5,7 @@ html{
 table {
     padding: 20px;
     table-layout: fixed;
-    width: 1200px;
+    width: 1206px;
 }
 thead {
     font-family: "Segoe UI"
@@ -25,10 +25,10 @@ table tbody{
     font-size: 0.8rem;
 }
 select{
+    border: 1px solid #adadad;
     font-size: 0.8rem;
     width: 42px;
     height: 42px;
-    border: solid 1px #adadad;
     background: #dedede;
     color: red;
 }
@@ -43,20 +43,15 @@ button{
 }
 /*borders*/
 td, th{
-    border: solid 1px black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
     padding: 0 10px;
-}
-td:last-child, th:last-child{
-    border-right: solid 2px black;
 }
 td:first-child, th:first-child{
     border-left: solid 2px black;
 }
 thead tr th{
     border-top: solid 2px black;
-}
-tbody tr:last-of-type td{
-    border-bottom: solid 2px black;
 }
 #upper-left{
     border-top-left-radius: 20px;

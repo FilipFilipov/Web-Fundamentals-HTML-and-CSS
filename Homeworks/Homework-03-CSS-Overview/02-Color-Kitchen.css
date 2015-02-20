@@ -10,12 +10,12 @@ body {
     background-image: url("images/colorful_dots_on_black.jpg");
     font-size: 1.6rem;
 }
-/*headers*/
+/*header*/
 body > header {
     font-family: "Segoe UI";
     font-size: 6rem;
-    background: linear-gradient(to right, #FF0000 33%, #008000 33%, #008000 67%, #0000FF 67%);
-    color: #FFFF00;
+    background: linear-gradient(to right, red 33.3%, green 33.3%, green 66.6%, blue 66.6%);
+    color: yellow;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -25,8 +25,8 @@ aside, article {
     padding: 20px;
 }
 section {
-    width: 70%;
-    float: left;
+    width: 75%;
+    float: right;
     margin: 0 40px;
 }
 /*aside styles*/
@@ -34,6 +34,7 @@ aside {
     float: left;
     width: 18%;
     margin-left: 10px;
+    position: fixed;
 }
 aside header {
     font-size: 2rem;
