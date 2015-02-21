@@ -1,0 +1,31 @@
+#wrapper {
+    float: left;
+    background: #ffc0cb;
+    border-radius: 10px;
+    padding: 20px;
+}
+section {
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+}
+figure {
+    margin: inherit;
+}
+audio {
+    display: block;
+    margin-top: 15px;
+}
+h1 {
+    text-align: center;
+}
+meter {
+    display: block;
+    width: 200px;
+}
+#right {
+    height: 234px;
+}
+video {
+    height: inherit;
+}

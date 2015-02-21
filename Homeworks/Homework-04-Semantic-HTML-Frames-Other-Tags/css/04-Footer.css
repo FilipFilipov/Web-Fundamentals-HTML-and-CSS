@@ -1,0 +1,47 @@
+h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    font-family: "Segoe UI";
+    width: 100%;
+}
+section:first-child {
+    background: #f7f7f7;
+    color: #777;
+    font-style: italic;
+    padding: 1rem;
+}
+section:first-child:before {
+    content: url("../img/twit.png");
+    margin-right: 5px;
+}
+section:last-child {
+    background: black;
+    color: white;
+    padding: 1rem;
+}
+article {
+    width: 17%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.5%;
+}
+article:first-child {
+    font-size: 1.13rem;
+    font-weight: bold;
+}
+article h3 {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+article a {
+    color: white;
+    text-decoration: none;
+}
+article div {
+    color: #999;
+}
+span{
+    font-weight: bold;
+}
