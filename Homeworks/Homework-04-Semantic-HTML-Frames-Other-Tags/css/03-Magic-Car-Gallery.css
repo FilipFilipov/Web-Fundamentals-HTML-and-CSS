@@ -10,6 +10,7 @@ h1 {
     text-align: center;
 }
 iframe {
+    /*Border is positioned incorrectly in firefox, try chrome instead.*/
     border: 1px solid #f3c408;
     width: 180px;
     height: 135px;

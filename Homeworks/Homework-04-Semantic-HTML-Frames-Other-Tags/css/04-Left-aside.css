@@ -10,6 +10,9 @@ ul {
     padding: 0;
     margin: 0;
 }
+li {
+    margin-bottom: 10px;
+}
 a {
     text-decoration: none;
     color: #225e9b;
