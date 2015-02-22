@@ -1,0 +1,83 @@
+.rectangle {
+    width: 750px;
+    height: 300px;
+    border-style: dotted solid double dashed;
+    border-width: 7px 15px 10px 7px;
+    border-color: yellow green blue red;
+    box-shadow: 20px 20px 10px dimgray;
+}
+.border {
+    border: 3px solid;
+    border-radius: 70px;
+    box-sizing: border-box;
+    height: 100%;
+}
+#blue {
+    width: 670px;
+    height: 140px;
+    margin: 50px auto;
+    border-color: blue;
+}
+#green {
+    border-color: green;
+}
+#yellow {
+    border-color: yellow;
+}
+#red {
+    border-color: red;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 10px 10px 10px gray;
+}
+p {
+    font-size: 22px;
+    text-shadow: 5px 5px 5px gray;
+    margin-bottom: 35px;
+}
+input {
+    background: #da971e;
+    color: black;
+    border: outset #ffaa00;
+    text-align: center;
+}
+.bubble-outer {
+    background: rgba(128, 128, 128, 0.5);
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+}
+.bubble-inner {
+    box-sizing: border-box;
+    /*Firefox can't do curved dashed or dotted borders, use chrome to see them.*/
+    border-radius: 50%;
+    border: 3px dashed white;
+    width: inherit;
+    height: inherit;
+}
+#number1 {
+    width: 30px;
+    height: 30px;
+    left: 465px;
+    bottom: 55px;
+}
+#number2 {
+    width: 44px;
+    height: 44px;
+    left: 560px;
+    bottom: 155px;
+
+}
+#number3 {
+    width: 150px;
+    height: 85px;
+    color: white;
+    left: 660px;
+    bottom: 275px;
+}
+#number3 .bubble-inner, #number3 {
+    border-radius: 75px;
+}
