@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fakebook-Register-Form</title>
+    <link rel="stylesheet" href="./css/04-Fakebook-Register-Form.css"/>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>fakebook<span>®</span></h1>
+        <h3>Registration</h3>
+        <h6>It is safe and always will be!</h6>
+    </header>
+    <main>
+        <form>
+            <div class="blocks">
+                <div class="left">
+                    <fieldset>
+                        <legend>Non-Important Information</legend>
+                        <div class="row">
+                            <input type="text" placeholder="First Name" tabindex="2"/>
+                            <input type="text" placeholder="Last Name" tabindex="2"/>
+                        </div>
+                        <div class="row">
+                            <input type="email" placeholder="Your Email" pattern="//S+@//S+//.//S+" tabindex="2"/>
+                            <input type="tel" placeholder="Phone Number" pattern="[0-9+-()]{3,15}" tabindex="2"/>
+                        </div>
+                        <div class="row">
+                            <input type="password" placeholder="Your Password" tabindex="2"/>
+                            <input type="url" placeholder="Website" pattern="https?://.+" tabindex="2"/>
+                        </div>
+
+                        <label for="birthday">Birthday</label>
+                        <input type="datetime-local" id="birthday" value="2014-09-05T13:58" tabindex="2"/>
+                        <div class="row">
+                            <input name="gender" type="radio" id="male" tabindex="2"/>
+                            <label for="male">Male</label>
+                            <input name="gender" type="radio" id="female" tabindex="2"/>
+                            <label for="female">Female</label>
+                            <input name="gender" type="radio" id="other" checked tabindex="2"/>
+                            <label for="other">Other</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="right">
+                    <fieldset>
+                        <legend>Important Information *required</legend>
+                        <div class="row">
+                            <select tabindex="1">
+                                <option>Country</option>
+                            </select>
+                            <input placeholder="Village" type="text" tabindex="1" required/>
+                            <input placeholder="District" type="text" tabindex="1" required/>
+                        </div>
+                        <div id="short" class="row">
+                            <input id="long" placeholder="Street" type="text" tabindex="1" required/>
+                            <input placeholder="Nr" type="text" tabindex="1" required/>
+                            <input placeholder="Floor" type="text" tabindex="1" required/>
+                            <input placeholder="Ap Nr" type="text" tabindex="1" required/>
+                        </div>
+                        <label for="door">Door Color</label>
+                        <div class="row">
+                            <input type="color" value="#ff86c4" id="door" tabindex="1"/>
+                            <input type="text" placeholder="Water Meter Nr" tabindex="1" required/>
+                            <select tabindex="1">
+                                <option>Aunt's Panties Size</option>
+                            </select>
+                        </div>
+                        <label for="more">More Personal Information</label>
+                        <textarea rows="3" placeholder="Give Us More Personal Information!" id="more" tabindex="1" required></textarea>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="blocks">
+                <div class="left">
+                    <input type="reset" value="Clear Form" tabindex="3"/>
+                </div>
+                <div class="right">
+                    <input type="submit" value="Register" tabindex="3"/>
+                </div>
+            </div>
+        </form>
+    </main>
+</div>
+</body>
+</html>

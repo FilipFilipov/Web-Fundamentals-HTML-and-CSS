@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link href="css/02-Flight-Order.css" rel="stylesheet">
+</head>
+<body>
+<h1>FLIGHT ORDER</h1>
+<form>
+    <div class="row">
+        <div class="col">
+            <label for="from-city">From</label>
+            <select id="from-city">
+                <option selected="selected">enter a city</option>
+            </select>
+        </div>
+        <div class="col">
+            <label for="to-city">To</label>
+            <select id="to-city">
+                <option selected="selected">enter a city</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="half-length">
+            <input id="prefer-directs" type="checkbox">
+            <label for="prefer-directs">Prefer directs</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="departure-date">Departure Date</label>
+            <input id="departure-date" type="date" value="2014-06-09">
+        </div>
+        <div class="col">
+            <label>Time Interval</label>
+            <div class="col-inner">
+                <input type="time" value="00:20:00">
+                <input type="time" value="05:00:00">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="return-date">Return Date</label>
+            <input id="return-date" type="date" value="2014-06-13">
+        </div>
+        <div class="col">
+            <label>Time Interval</label>
+            <div class="col-inner">
+                <input type="time" value="16:00:00">
+                <input type="time" value="22:00:00">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-outer">
+            <div class="col number-range">
+                <label for="12+">12+</label>
+                <input id="12+" type="number" min="0" value="0">
+            </div>
+            <div class="col number-range">
+                <label for="2-12">2-12</label>
+                <input id="2-12" type="number" min="0" value="0">
+            </div>
+            <div class="col number-range">
+                <label for="0-2">0-2</label>
+                <input id="0-2" type="number" min="0" value="0">
+            </div>
+        </div>
+        <div class="col">
+            <label for="class">Choose class</label>
+            <select id="class">
+                <option selected="selected">Economy</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <button class="half-length">Search</button>
+    </div>
+</form>
+</body>
+</html>

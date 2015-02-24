@@ -1,0 +1,121 @@
+@font-face {
+    src: url(../FACEBOLF.OTF);
+    font-family: Facebook;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 25px;
+}
+#wrapper {
+    background: #415f9c;
+    padding: 10px 0;
+}
+body {
+    width: 900px;
+    font-family: "Tahoma", sans-serif;
+}
+header {
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-family: Facebook;
+    font-size: 4rem;
+    margin: 0 0 30px 0;
+}
+span {
+    font-size: 1.5rem;
+    vertical-align: bottom;
+}
+h3, h6 {
+    margin: 0 10px 10px 10px;
+}
+.blocks {
+    display: flex;
+}
+.left {
+    flex: 2;
+    margin: 0 10px;
+}
+.right {
+    flex: 3;
+    margin: 0 10px;
+}
+fieldset {
+    height: 212px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    align-content: flex-start;
+}
+#short {
+    width: 86%;
+}
+legend, label {
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+label {
+    display: block;
+    text-align: left;
+    margin-left: 5px;
+}
+.row:last-child {
+    width: 80%;
+}
+.row:last-child label {
+    margin: 0 10px 0 0;
+}
+.row:last-child label:last-child {
+    margin-right: 0;
+}
+input[type=radio] {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+input[type=datetime-local] {
+    width: 80%;
+    margin-bottom: 10px;
+}
+input, select {
+    height: 25px;
+}
+input, select {
+    border-radius: 5px;
+    flex: 1;
+    background: white;
+    border: 1px solid #9f9f9f;
+    margin: 3px;
+    /*Workaround for ccs bug with flex containers and fieldsets*/
+    width: 100px;
+    /*Workaround for Firefox bug with flex containers and input fields*/
+    min-width: 1px;
+}
+#long {
+    flex: 2;
+}
+textarea {
+    width: 100%;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+input[type=reset], input[type=submit] {
+    background: #dfdfdf;
+    color: #415f9c;
+    width: 100%;
+    vertical-align: middle;
+    height: 40px;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px 10px 0 0;
+}
+input[type=submit] {
+    font-size: x-large;
+}

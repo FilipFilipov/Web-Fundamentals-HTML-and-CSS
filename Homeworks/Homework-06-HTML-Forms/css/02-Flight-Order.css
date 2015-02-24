@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 500px;
+}
+h1 {
+    background: pink;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+form {
+    background: pink;
+    font-family: "Helvetica", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px 10px 10px;
+}
+.row, .col-inner, .col-outer{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+div.col {
+    flex: 1;
+}
+div.col, .col-inner>input:first-child {
+    margin-right: 5px;
+}
+.half-length {
+    width: 49.5%;
+    margin-right: 5px;
+}
+.half-length label, .half-length input {
+    display: inline;
+    width: auto;
+    vertical-align: middle;
+}
+label {
+    font-style: italic;
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 5px;
+}
+input, select, button {
+    width: 100%;
+    margin-bottom: 5px;
+}
+select {
+    background: white;
+    height: 21px;
+    line-height: 21px;
+}
+button {
+    height: 30px;
+    margin: 10px 0 0 0;
+}

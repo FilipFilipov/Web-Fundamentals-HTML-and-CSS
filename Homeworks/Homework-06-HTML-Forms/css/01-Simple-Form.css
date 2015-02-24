@@ -1,0 +1,77 @@
+html {
+    font-family: "Helvetica", sans-serif;
+}
+#wrapper {
+    background: #eee;
+    padding: 15px;
+    display: inline-block;
+}
+h1 {
+    color: #234465;
+    margin-top: 0;
+}
+h3 {
+    margin-top: 0;
+}
+#left h3 {
+    color: #666;
+}
+#right h3 {
+    color: white;
+}
+span {
+    color: #234465;
+}
+section {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    float: left;
+}
+#right {
+    background: #234465;
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin: 5px 0px;
+    height: 2rem;
+    padding-left: 10px;
+    float: right;
+}
+input[type=submit] {
+    border: 2px solid;
+    background: inherit;
+    width: 50%;
+    font-weight: bold;
+}
+.submit-left {
+    color: #234465;
+}
+input[type=submit].submit-right {
+    color: white;
+    border-color: #ff9c00;
+    width: 70%;
+}
+input[type=checkbox] {
+    width: auto;
+    float: left;
+    background: #dedede;
+}
+label {
+    font-size: 0.8rem;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.login {
+    float: right;
+}
+a {
+    color: white;
+    float: right;
+    font-size: 0.9rem;
+}
