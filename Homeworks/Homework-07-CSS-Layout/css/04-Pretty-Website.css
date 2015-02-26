@@ -1,0 +1,132 @@
+/*Reset*/
+html, body, section, header, main, footer, h1, h3, ul, li, img, div, nav, p {
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/*Main Styles*/
+html {
+    font-size: 10px;
+    font-family: "Arial", sans-serif;
+}
+body {
+    background-color: black;
+}
+.wrapper {
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+}
+.center {
+    background-color: white;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    margin: auto;
+}
+/*Header*/
+header>div {
+    position: relative;
+}
+img {
+    display: block;
+}
+header>div div {
+    color: white;
+    font-size: 300%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 14%;
+    right: 4.5%;
+}
+nav {
+    background: linear-gradient(to bottom, rgb(239, 239, 239) 0%, rgb(221, 221, 221) 100%);
+    padding-bottom: 0.3rem;
+}
+ul {
+    border-bottom: solid 1px white;
+    display: flex;
+}
+li a {
+    color: #626161;
+    display: block;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border-right: solid 1px white;
+}
+li a:hover {
+    color: white;
+    background: linear-gradient(to bottom, rgb(190, 190, 190) 0%, rgb(180, 180, 180) 100%);
+}
+/*Main*/
+main {
+    margin: auto;
+    flex: 3;
+}
+section {
+    padding: 0 20px 10px;
+    border: solid 1px #dbdbdb;
+    border-radius: 10px;
+    margin: 0 40px 20px;
+}
+h1 {
+    color: #84be19;
+    margin: 15px 0;
+    font-size: 2.4rem;
+}
+/*Article*/
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    line-height: 0;
+}
+article img {
+    float: left;
+    margin-right: 20px;
+}
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 17px;
+}
+article {
+    margin-bottom: 20px;
+}
+/*Aside*/
+aside {
+    flex: 1;
+}
+aside section {
+    margin-left: 0;
+}
+aside section:first-child {
+    background-color: #eee;
+}
+section > div {
+    margin-bottom: 15px;
+}
+section > div:last-child {
+     margin-bottom: 0;
+ }
+.more {
+    color: #84be19;
+    text-decoration: underline;
+}
+/*footer*/
+footer {
+    background: linear-gradient(to bottom, rgb(164, 217, 65) 0%, rgb(132, 191, 25) 100%);
+    padding: 30px 0 60px 130px;
+    font-size: 1.2rem;
+}
+footer a {
+    color: #292b25;
+    text-decoration: underline;
+}
