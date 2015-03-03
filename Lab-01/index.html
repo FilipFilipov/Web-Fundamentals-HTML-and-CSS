@@ -1,0 +1,127 @@
+<!doctype>
+<html>
+<head>
+    <title>SoftUni Lab</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<audio autoplay loop>
+    <source src="audio/yo-mama.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<div id="wrapper">
+    <header>
+        <div id="logo">
+            <img src="images/nissan-logo.png" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">The project</a>
+                    <ul>
+                        <li>The Creators</li>
+                        <li>The Crew</li>
+                        <li>The Mechanics</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Car models</a>
+                    <ul>
+                        <li>350Z</li>
+                        <li>370Z</li>
+                        <li>GT-R</li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Mark</th>
+                <th>Approve?</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jim</td>
+                <td>White</td>
+                <td>7</td>
+                <td>
+                    <a href="#yes" class="confirm">Yes</a>
+                    <a href="#no" class="deny">No</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan="2">Jane No Last Name</td>
+                <td>9</td>
+                <td>
+                    <a href="#yes" class="confirm">Yes</a>
+                    <a href="#no" class="deny">No</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jordan</td>
+                <td>Brown</td>
+                <td>4</td>
+                <td>
+                    <a href="#yes" class="confirm">Yes</a>
+                    <a href="#no" class="deny">No</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <form>
+            <fieldset>
+                <legend>User login information</legend>
+                <input type="text" name="username" placeholder="Enter your username" required />
+                <input type="password" name="password" placeholder="Enter you password" required />
+            </fieldset>
+            <fieldset>
+                <legend>User profile information</legend>
+                <input type="text" name="firstname" placeholder="First name" pattern="[A-Za-z]+" required />
+                <input type="text" name="lastname" placeholder="Last name" pattern="[A-Za-z]+" required />
+            </fieldset>
+            <fieldset>
+                <legend>Buisness information</legend>
+                <input type="email" name="email" placeholder="Email address" required />
+                <input type="number" name="teamSize" placeholder="Team Size" />
+            </fieldset>
+            <fieldset>
+                <legend>Done?</legend>
+                <input type="submit" name="send" value="Send" />
+                <input type="reset" name="reset" value="Reset form" />
+            </fieldset>
+        </form>
+
+        <div id="funny-images">
+            <img src="images/titanic.png" />
+            <img src="images/pumba.jpg" />
+            <img src="images/kfc.jpg" />
+        </div>
+    </main>
+
+    <footer>
+        <p>This site is distributed under the R.A.K.I.A.™ License. If you want to contribute to it please contact us at SoftUni© official email address.</p>
+
+        <div class="social-links">
+            <div class="facebook"></div>
+            <div class="twitter"></div>
+            <div class="vimeo"></div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
