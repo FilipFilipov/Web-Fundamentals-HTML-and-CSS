@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box; }
+
+html, body, ul {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, sans-serif; }
+
+a {
+  text-decoration: none;
+  color: gray; }
+
+body {
+  background: linear-gradient(to 135deg, gray 0%, white 100%); }
+  body #wrapper {
+    width: 960px;
+    color: gray;
+    background-color: white;
+    border: double 3px gray;
+    margin: 0 auto; }
+    body #wrapper > header {
+      width: 920px;
+      text-align: center;
+      margin: 20px auto;
+      border: double 3px gray; }
+      body #wrapper > header h1 {
+        font-size: 35px;
+        margin-top: 20px;
+        margin-bottom: 30px; }
+    body #wrapper nav {
+      margin-bottom: 20px;
+      display: inline-block; }
+      body #wrapper nav ul {
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none; }
+        body #wrapper nav ul li {
+          padding: 10px 25px;
+          border: double 3px gray; }
+          body #wrapper nav ul li:hover {
+            color: white;
+            background: linear-gradient(to bottom, gray 0%, white 100%); }
+    body #wrapper section {
+      border: double 3px gray;
+      margin: 20px; }
+      body #wrapper section h1 {
+        text-decoration: underline;
+        margin: 20px;
+        text-align: center; }
+      body #wrapper section article {
+        border: solid 1px gray;
+        margin: 20px;
+        text-align: center; }
+        body #wrapper section article header h2 {
+          font-size: 16px; }
+        body #wrapper section article > div {
+          padding: 10px 25px;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px; }
+          body #wrapper section article > div div {
+            width: 135px;
+            height: 135px;
+            border-radius: 20px; }
+    body #wrapper .radial article .innerContainer div {
+      margin-top: 20px; }
+    body #wrapper .radial article .innerContainer .purple {
+      background: radial-gradient(purple 0%, white 100%); }
+    body #wrapper .radial article .innerContainer .blue {
+      background: radial-gradient(blue 0%, white 100%); }
+    body #wrapper .radial article .innerContainer .green {
+      background: radial-gradient(green 0%, white 100%); }
+    body #wrapper .radial article .innerContainer .yellow {
+      background: radial-gradient(yellow 0%, white 100%); }
+    body #wrapper .radial article .innerContainer .orange {
+      background: radial-gradient(orange 0%, white 100%); }
+    body #wrapper .radial article .innerContainer .red {
+      background: radial-gradient(red 0%, white 100%); }
+    body #wrapper #vertical ~ .innerContainer .purple {
+      background: linear-gradient(to bottom, purple 0%, white 100%); }
+    body #wrapper #vertical ~ .innerContainer .blue {
+      background: linear-gradient(to bottom, blue 0%, white 100%); }
+    body #wrapper #vertical ~ .innerContainer .green {
+      background: linear-gradient(to bottom, green 0%, white 100%); }
+    body #wrapper #vertical ~ .innerContainer .yellow {
+      background: linear-gradient(to bottom, yellow 0%, white 100%); }
+    body #wrapper #vertical ~ .innerContainer .orange {
+      background: linear-gradient(to bottom, orange 0%, white 100%); }
+    body #wrapper #vertical ~ .innerContainer .red {
+      background: linear-gradient(to bottom, red 0%, white 100%); }
+    body #wrapper #horizontal ~ .innerContainer .purple {
+      background: linear-gradient(to right, purple 0%, white 100%); }
+    body #wrapper #horizontal ~ .innerContainer .blue {
+      background: linear-gradient(to right, blue 0%, white 100%); }
+    body #wrapper #horizontal ~ .innerContainer .green {
+      background: linear-gradient(to right, green 0%, white 100%); }
+    body #wrapper #horizontal ~ .innerContainer .yellow {
+      background: linear-gradient(to right, yellow 0%, white 100%); }
+    body #wrapper #horizontal ~ .innerContainer .orange {
+      background: linear-gradient(to right, orange 0%, white 100%); }
+    body #wrapper #horizontal ~ .innerContainer .red {
+      background: linear-gradient(to right, red 0%, white 100%); }
+    body #wrapper #diagonal ~ .innerContainer .purple {
+      background: linear-gradient(135deg, purple 0%, white 100%); }
+    body #wrapper #diagonal ~ .innerContainer .blue {
+      background: linear-gradient(135deg, blue 0%, white 100%); }
+    body #wrapper #diagonal ~ .innerContainer .green {
+      background: linear-gradient(135deg, green 0%, white 100%); }
+    body #wrapper #diagonal ~ .innerContainer .yellow {
+      background: linear-gradient(135deg, yellow 0%, white 100%); }
+    body #wrapper #diagonal ~ .innerContainer .orange {
+      background: linear-gradient(135deg, orange 0%, white 100%); }
+    body #wrapper #diagonal ~ .innerContainer .red {
+      background: linear-gradient(135deg, red 0%, white 100%); }
+    body #wrapper footer {
+      text-align: center;
+      border: double 3px gray;
+      margin: 20px; }
+      body #wrapper footer h3 {
+        text-decoration: underline; }
+      body #wrapper footer ul {
+        list-style: none;
+        margin-bottom: 20px; }
+        body #wrapper footer ul li {
+          margin: 5px; }
